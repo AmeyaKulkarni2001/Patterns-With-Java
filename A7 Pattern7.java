@@ -11,13 +11,9 @@ public class Main {
             for (int j = 0; j < sp; j++) {
                 System.out.print("\t");
             }
-            for (int j = 0; j < st; j++) {
-                System.out.print("*");
-            }
-            if (sp <= i) {
-                sp++;
-            }
-            System.out.println();
+        System.out.print("*");
+        sp++;
+        System.out.println();
         }
     }
 }
